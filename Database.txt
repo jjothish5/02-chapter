@@ -1,0 +1,17 @@
+
+show databases;
+
+use jpaexamples
+
+show tables
+
+CREATE TABLE Persons (
+    	id int NOT NULL AUTO_INCREMENT,	
+	FirstName varchar(255),
+	LastName  varchar(255),
+	DateOfBirth DATE,
+	PRIMARY KEY (id)
+);
+
+Describe Persons;
+
